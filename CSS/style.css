@@ -64,5 +64,16 @@ body, html {
     position:absolute;
     left:50%;
     transform:translate(-50%);
+    bottom:10%;
+    padding:0px 5px;
     background-color:white;
+    white-space:nowrap;
+}
+
+.categories {
+    padding: 0 0 0 10px
+}
+
+.categories-text {
+    color:darkslategray;
 }
