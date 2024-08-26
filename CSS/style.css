@@ -59,3 +59,10 @@ body, html {
     top: 0; 
     left: 0; 
 }
+
+.slogan {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    background-color:white;
+}
