@@ -71,7 +71,7 @@ body, html {
 }
 
 .categories {
-    padding: 0 0 0 10px
+    padding: 0 10px 0 10px
 }
 
 .categories-text {
@@ -80,8 +80,9 @@ body, html {
 
 .category-images {
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
+    padding:0 0 0 10px;
 }
 
 .category-images img {
@@ -89,7 +90,23 @@ body, html {
     width:350px;
 }
 
-.image1, .image2, .image3 {
-    padding:0 0 0 10px;
+.recipes {
+    padding:0 10px 0 10px;
+    background-color: lightgray;
 }
 
+.description {
+    color:darkslategray;
+}
+
+
+.recipe-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.recipe-img img {
+    height:20vh;
+    width:15vw;
+}
