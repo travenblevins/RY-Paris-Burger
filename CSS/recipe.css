@@ -18,3 +18,32 @@ body, html {
     align-items:center;
     gap:10px;
 }
+
+.image-container {
+    display: flex;
+    position: relative;
+    margin-top: 4px;
+    overflow: hidden;
+    width: 100vw; 
+    height: 125vh;
+}
+
+.image-container img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+.text {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    bottom:10%;
+    padding:10px 10px 10px 10px;
+    background-color:white;
+    white-space:nowrap;
+}
