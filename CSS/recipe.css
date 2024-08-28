@@ -91,3 +91,11 @@ body, html {
     justify-content:center;
     align-items: center;
 }
+
+.row1 :last-child{
+    color:lightgray;
+}
+
+.row2 :last-child {
+    color:lightgray;
+}
