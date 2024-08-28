@@ -111,11 +111,14 @@ body, html {
   'opsz' 24
 }
 
+.bengal {
+    margin:0 0 15px 0;
+}
+
 .bengal-title {
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 10px 0 0 0;
 }
 
 .star {
@@ -130,3 +133,8 @@ body, html {
     padding: 5px 0 0 0;
 }
 
+.bengal-note {
+    display:flex;
+    justify-content: center;
+    background-color:lightgray;
+}
