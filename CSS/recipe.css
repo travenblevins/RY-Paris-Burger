@@ -47,3 +47,48 @@ body, html {
     background-color:white;
     white-space:nowrap;
 }
+
+.time {
+    background-color:gray;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.heading {
+    font-style:bold;
+}
+
+.column1 {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:0 15px 0 0;
+}
+
+.column2 {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:0 15px 0 0;
+}
+
+.column3 {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:0 15px 0 0;
+}
+
+
+.row1 {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.row2 {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
