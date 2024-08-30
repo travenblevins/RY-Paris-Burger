@@ -139,3 +139,15 @@ body, html {
     justify-content: center;
     background-color:lightgray;
 }
+
+.ingredients {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:0 0 0 25px;
+}
+
+.title {
+    padding:0 0 0 25px;
+}
